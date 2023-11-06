@@ -1,6 +1,6 @@
 const express = require('express');
 const app = express();
-const port = 3000; // You can choose any available port you prefer
+const port = 80; // You can choose any available port you prefer
 
 // Define a GET endpoint
 app.get('/api/data', (req, res) => {
